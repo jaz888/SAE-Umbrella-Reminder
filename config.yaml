@@ -1,0 +1,11 @@
+name: 你的SAE项目名字
+version: 1
+cron:
+- description: send msg
+  url: tq/send.php
+  schedule: every 1 mins, from 16:00 to 18:00
+  timezone: Beijing
+- description: reset
+  url: tq/reset.php
+  schedule: every day of month 00:30
+  timezone: Beijing
