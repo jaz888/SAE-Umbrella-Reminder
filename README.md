@@ -1,3 +1,4 @@
+**This application cannot be used any more since the SMS API is deactived by Sina App Engine.**
 sae-weather
 ===========
 
